@@ -1,10 +1,12 @@
 def fizzbuzz(num)
   if num % 3 == 0 && !(num % 5 == 0)
-    p "Fizz"
+    fizz_3 = "Fizz"
+    p fizz_3
   end
 
   if num % 5 == 0 && !(num % 3 == 0)
-    p "Buzz"
+    fizz_5 = "Buzz"
+    p fizz_5
   end
   if num % 3 == 0 && num % 5 == 0
     p "FizzBuzz"
